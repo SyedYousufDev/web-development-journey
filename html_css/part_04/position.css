@@ -1,0 +1,17 @@
+
+#myPic{
+    height:150px;
+    width:300px;
+    
+}
+
+#box1 { 
+width: 100px; 
+height: 100px; 
+background: green; 
+} 
+ 
+#box1:hover { 
+width: 600px;
+transition: width 2s ease-in; 
+}
