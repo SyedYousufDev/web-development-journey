@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS DOM Practice - Delta Batch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1 id="main-heading">JavaScript DOM Playground</h1>
+        <p class="description">Mastering element selection and manipulation.</p>
+    </header>
+
+    <main id="container">
+        <section class="card">
+            <h2 class="sub-heading">Task List</h2>
+            <ul id="task-list">
+                <li class="item">Learn Selectors</li>
+                <li class="item">Manipulate Attributes</li>
+                <li class="item">Practice classList</li>
+            </ul>
+        </section>
+
+        <section class="card">
+            <h2 class="sub-heading">Profile Card</h2>
+            <img src="spotify.png" alt="Placeholder Image" id="main-img" style="width: 120px; height: 120px; object-fit: cover;">
+            <a href="https://google.com" id="pro-link" target="_blank">Visit Website</a>
+            <div class="box" style="background-color: lightblue;">
+                I am a box for style manipulation.
+            </div>
+        </section>
+
+        <section id="action-area" class="card">
+            <h2 class="sub-heading">Dynamic Actions</h2>
+            <p>New elements will be added below this line:</p>
+            <hr>
+            </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
