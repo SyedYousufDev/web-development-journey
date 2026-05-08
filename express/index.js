@@ -11,5 +11,6 @@ app.listen(port, ()=>{
 
 app.use((req,res)=>{
     console.log(`Request recieved.`);
+    res.send("This is the respond.");
 });
 
