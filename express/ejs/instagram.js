@@ -9,11 +9,15 @@
 
  port = 8080;
  
-
+app.get('/', (req,res)=>{
+    res.json({"Message":"Home route"})
+})
 
 app.listen(port, ()=>{
-     console.log("server is listening.");
+     console.log(`server is listening on http://localhost:${port}`);
  });
+
+
 
  
  app.get("/ig/:username",(req,res)=>
