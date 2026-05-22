@@ -16,3 +16,19 @@ CREATE TABLE employee (
     -- CHECK: Limits data entries based on a custom logical rule
     CONSTRAINT age_check CHECK (age >= 18 AND city = "Delhi")
 );
+
+
+
+----------------------------------------------------------------------------------------------------
+
+-- PRIMARY KEY: Makes a column unique & not null (used as a main unique identifier for a table)
+CREATE TABLE temp (
+    id int not null,
+    PRIMARY KEY (id)
+);
+
+-- FOREIGN KEY: Connects this table to another table to prevent actions that would destroy links between them
+CREATE TABLE temp (
+    cust_id int,
+    FOREIGN KEY (cust_id) references customer(id)
+);
