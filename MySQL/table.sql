@@ -6,9 +6,10 @@ CREATE TABLE table_name(
 );
 
 INSERT INTO table_name
+(col1,col2,col3)
 VALUES
-  (value_column_1,value_column_2,value_column_3),
-   (value_column_1,value_column_2,value_column_3);
+(value_column_1,value_column_2,value_column_3),
+(value_column_1,value_column_2,value_column_3);
 
 
 
@@ -20,6 +21,7 @@ CREATE TABLE student (
 );
 
 INSERT INTO student
+(rollno,name,age)
 VALUES
 (101, "adam", 12),
 (102, "bob", 14);
